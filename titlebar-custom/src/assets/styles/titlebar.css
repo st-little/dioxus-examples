@@ -6,7 +6,6 @@
   align-items: center;
   background: #0099FF;
   color: white;
-  /* color: #333333; */
   user-select: none;
 }
 .title {
@@ -18,15 +17,17 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  color: #333333;
   width: 34px;
   height: 30px;
   margin-right: 10px;
 }
 .setting-button:hover {
   background: #015c993c;
-  /* background: #3b3b3b; */
 }
-
+.setting-button img {
+  filter: invert(100%);
+}
 .titlebar-button {
   display: inline-flex;
   justify-content: center;
@@ -37,7 +38,6 @@
 }
 .titlebar-button:hover {
   background: #015c993c;
-  /* background: #3b3b3b; */
 }
 .titlebar-button:nth-child(4):hover {
   background: #da3d3d;
